@@ -8,52 +8,85 @@ padding-left:5px;
 }
 .h2{
   text-align:Center;
-  font-family:Gill Sans;
+  font-family:Helvetica;
   font-size: 14px;
 
   Box-sizing:}
 
 .mc{
-object-fit:contain;
-margin-left:100px;
-border-radius:30px;
+  position:absolute;  
+  left:10%;
+  
 }
 
+.img_main{
+  border-radius:50%;
+  border-color:red;
+}
 .main{
   font-size:bold;
   margin-left:10px; 
   font-size:50px;
   color:yellow;
   font-family:italic;
+  
+  
 
 }
 .course{
   font-size:bold;
   color:black;
   font-size:20px;
+  list-style-type: none;
    }
   
+
+  
+
+.img_apy{
+  border-radius:50%;
+  float:right;
+  margin-top:0;
+
+
+
+}
+
+
+
+
   .apetizers{
-    object-fit:contain;
-    margin-right:100px;
-    margin-top:0;
+    position:absolute;
+    right:10%;
 
   }
   
   
-
 .Apy{
   Text-align:right;
   font-size:50px;
   color:orange;
   font-family:italic;
+  
+
+
 }
 .list{
   color:black;
   text-align:right;
   list-style-type: none;
   font-size:bold;
-  font-size:20px;
+  font-size:20px;}
+
+
+   
+  
+  
+.img_desserts{
+    border-radius:50%;
+    margin-top:0;
+    margin-bottom:0;
+    margin-left:50px;
 
 }
 .Des{
@@ -61,6 +94,20 @@ border-radius:30px;
   font-size:50px;
   color:yellowgreen;
   font-family:italic;
+  margin-top:0;
+  margin-bottom:0;
+  margin-left:10px;
+
+
+}
+.desserts{
+  top:100%;
+  bottom:100%;
+  position:absolute;  
+  left:10%;
+  
+
+
 }
 .sweet{
   text-align:left;
@@ -70,9 +117,21 @@ border-radius:30px;
   font-size:20px;
 
 }
+.img_beverages{
+  border-radius:50%;
+  float:right;
+
+
+
+}
+
+
 
 .beverages{
-  margin-right:100px;
+  top:100%;
+  bottom:100%;
+  position:absolute;
+  right:10%;
 }
 .Bev{
   text-align:right;
@@ -88,11 +147,18 @@ border-radius:30px;
   color:black;
   font-size:20px; }
 
+
+
+
   .footer{
     text-align:center;
+    font-size: 20;
+    margin-top:70%;
   }
-    
-  }
+  .twitter{
+    size:10px;
+  }  
+  
 
 
 @media only screen and(max-width:414px){
